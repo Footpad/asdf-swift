@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo -n "versions/$(ASDF_INSTALL_VERSION)/usr/bin"
