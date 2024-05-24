@@ -8,8 +8,8 @@ ensure_swiftenv_installed() {
 
 download_swiftenv() {
   echo "Downloading swiftenv..."
-  local swiftenv_url="https://github.com/kylef/swiftenv.git"
-  git clone $swiftenv_url "$(swiftenv_dir)"
+  local swiftenv_url="https://github.com/Footpad/swiftenv.git"
+  git clone --branch fix-signature-verification $swiftenv_url "$(swiftenv_dir)"
 }
 
 swiftenv_path() {
